@@ -1,0 +1,8 @@
+openai
+gymnasium
+pandas
+yfinance
+numpy
+python-dotenv
+fastapi
+uvicorn
