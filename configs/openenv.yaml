@@ -1,0 +1,12 @@
+title: Trading Environment
+emoji: 📊
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+tags:
+  - openenv
+  - trading
+  - rl
+description: RL-Based Trading Agent environment for OpenEnv.
+mode: local

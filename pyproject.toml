@@ -1,0 +1,19 @@
+[project]
+name = "trading-env"
+version = "0.1.0"
+description = "RL-Based Trading Agent for OpenEnv"
+dependencies = [
+    "openai",
+    "gymnasium",
+    "pandas",
+    "yfinance",
+    "numpy",
+    "fastapi",
+    "uvicorn",
+    "requests",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
