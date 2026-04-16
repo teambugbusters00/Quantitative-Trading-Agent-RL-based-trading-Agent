@@ -1,29 +1,115 @@
----
-title: META-ENV Trading Agent
-emoji: 📈
-colorFrom: green
-colorTo: blue
-sdk: docker
-pinned: false
-app_port: 7860
+#  Quantitative Trading Agent & Simulation Framework
+
+### Quantitative Trading Agent & Simulation Framework
+ **Live Demo:**
+https://huggingface.co/spaces/jarvisemitra/META-ENV?logs=container
+
 ---
 
-# RL-Based Trading Agent (OpenEnv Compatible)
+##  Overview
 
-This Space runs a quantitative trading agent simulations that follow the **OpenEnv** benchmarking format.
+META-OPEN-ENV is a **quantitative trading environment** focused on building and evaluating **alpha-driven strategies**.
 
-## Features
-- **Simulation**: Uses real-world market data (BTC-USD).
-- **LLM Reasoning**: Decisions are made by an LLM-based agent.
-- **Gymnasium Interface**: Standardized trading environment.
+The system is designed around core principles of **quantitative finance**, including signal generation, portfolio simulation, and risk-adjusted performance evaluation.
 
-## API Endpoints
-- `/run`: Trigger a fresh trading episode and see the OpenEnv logs in real-time.
-- `/health`: Health check endpoint.
+---
 
-## Local Execution
-To run locally, clone the repo and use:
-```bash
-$env:HF_TOKEN = "your_token"
-python inference.py
+##  Quant Finance Integration
+
+This project is not just a trading simulator — it incorporates **core quant research concepts** used in real-world platforms like WorldQuant BRAIN.
+
+### 🔹 Alpha Signals
+
+Strategies are built using mathematical signals such as:
+
+* Momentum (short-term vs long-term trends)
+* Mean Reversion (price deviation from average)
+* Custom factor-based signals
+
+---
+
+### 🔹 Portfolio Simulation
+
+The system simulates trading decisions with:
+
+* Position management
+* Capital allocation
+* Sequential trade execution
+
+---
+
+### 🔹 Risk & Performance Metrics
+
+Evaluation is based on **quant-standard metrics**, not just profit:
+
+* **Sharpe Ratio** → measures risk-adjusted return
+* **Max Drawdown** → measures worst-case loss
+* **Total Return** → overall profitability
+* **Turnover** → trading efficiency
+
+---
+
+### 🔹 Signal → Decision Pipeline
+
+The workflow follows a standard quant pipeline:
+
+1. Market data ingestion
+2. Alpha signal computation
+3. Signal-to-action conversion (buy/sell/hold)
+4. Backtesting over historical data
+5. Performance evaluation
+
+---
+
+## ⚙️ Core Features
+
+* Alpha-based trading strategy design
+* Modular trading agent
+* Backtesting engine
+* Risk-aware evaluation
+* Extendable to reinforcement learning
+
+---
+
+## 📂 Project Structure
+
 ```
+META-OPEN-ENV/
+├── data/        
+├── alpha/       
+├── agent/       
+├── backtest/    
+├── utils/       
+└── app.py       
+```
+
+---
+
+## 📊 Why Quant Matters Here
+
+Unlike typical AI trading projects that rely only on models, this system emphasizes:
+
+* **signal quality over model complexity**
+* **financial logic over black-box predictions**
+* **risk-adjusted evaluation over raw profit**
+
+---
+
+## 🌐 Live Demo
+
+👉 https://huggingface.co/spaces/jarvisemitra/META-ENV?logs=container
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended for **educational and research purposes only** and does not represent financial advice.
+
+---
+
+## 👨‍💻 Author
+
+**Vijay Ramdev (BUG BUSTERS)**
+AI/ML | Full Stack | Quant Explorer
+
+---
