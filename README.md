@@ -8,7 +8,7 @@ https://huggingface.co/spaces/jarvisemitra/META-ENV?logs=container
 
 ##  Overview
 
-META-OPEN-ENV is a **quantitative trading environment** focused on building and evaluating **alpha-driven strategies**.
+quantitative trading environment** focused on building and evaluating **alpha-driven strategies**.
 
 The system is designed around core principles of **quantitative finance**, including signal generation, portfolio simulation, and risk-adjusted performance evaluation.
 
