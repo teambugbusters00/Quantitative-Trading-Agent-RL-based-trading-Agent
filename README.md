@@ -70,17 +70,7 @@ The workflow follows a standard quant pipeline:
 * Extendable to reinforcement learning
 
 ---
-
-## 📂 Project Structure
-
-```
-META-OPEN-ENV/
-├── data/        
-├── alpha/       
-├── agent/       
-├── backtest/    
-├── utils/       
-└── app.py       
+       
 ```
 
 ---
